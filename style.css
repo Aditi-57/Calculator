@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    padding: 23px;
+    width:63px;
+    margin: 0 3px;
+    border: 2px solid black; 
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+}
+
+.row {
+    margin: 8px 0px;
+    align-items: center;
+}
+
+.input {
+    font-size: 24px;
+    margin-left: 12px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: calc(100% - 30px); 
+}
